@@ -97,6 +97,9 @@ int main(void)
        - Reload Value is the parameter to be passed for SysTick_Config() function
        - Reload Value should not exceed 0xFFFFFF
    */
+
+	M74HC595_Init();
+
   if (SysTick_Config(SystemCoreClock / 1000))
   {
     /* Capture error */
@@ -116,7 +119,6 @@ int main(void)
 //
 //    /* Insert 100 ms delay */
 //    Delay(100);
-	  M74HC595_Init();
 	  M74HC595_WriteData(0xff);
 	  Delay(1000);
 	  M74HC595_WriteData(0x01);
