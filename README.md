@@ -12,4 +12,5 @@ Programming Language: Embedded C
 Development Environment:  STM32F0DISCOVERY
 
 
-https://github.com/aytacdilek/STM32F0_74HC595/blob/master/hardware/stm32f0_74hc595_schematic.png
+
+![stm32f0_74hc595_schematic](https://github.com/aytacdilek/STM32F0_74HC595/blob/master/hardware/stm32f0_74hc595_schematic.png)
