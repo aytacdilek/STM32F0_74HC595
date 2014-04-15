@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.4 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32F0_74HC595.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0_74HC595 -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0_74HC595/arm-gcc-link.ld -g">
+      <target file="STM32F0_74HC595.elf" lastModified="145646ab530">
+         <source file="..\obj\74hc595.o" lastModified="145646aad60"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="145646aad60"/>
+         <source file="..\obj\main.o" lastModified="145646aad60"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="145646aad60"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="145646aad60"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="145646ab530"/>
+         <source file="..\obj\stm32f0xx_it.o" lastModified="145646ab530"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="145646ab530"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="145646ab530"/>
+      </target>
+   </processor>
+</history>
