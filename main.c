@@ -100,44 +100,44 @@ int main(void)
 
 	M74HC595_Init();
 
-  if (SysTick_Config(SystemCoreClock / 1000))
-  {
-    /* Capture error */
-    while (1);
-  }
+	if (SysTick_Config(SystemCoreClock / 1000))
+	{
+	/* Capture error */
+	while (1);
+	}
 
-  while (1)
-  {
-//    /* Toggle LED4 */
-//    GPIOC->BSRR = (0x0300);
-//
-//    /* Insert 50 ms delay */
-//    Delay(50);
-//
-//    /* Toggle LED3 */
-//    GPIOC->BRR = (0x0300);
-//
-//    /* Insert 100 ms delay */
-//    Delay(100);
-	  M74HC595_WriteData(0xff);
-	  Delay(1000);
-	  M74HC595_WriteData(0x01);
-	  Delay(1000);
-	  M74HC595_WriteData(0x02);
-	  Delay(1000);
-	  M74HC595_WriteData(0x04);
-	  Delay(1000);
-	  M74HC595_WriteData(0x08);
-	  Delay(1000);
-	  M74HC595_WriteData(0x10);
-	  Delay(1000);
-	  M74HC595_WriteData(0x20);
-	  Delay(1000);
-	  M74HC595_WriteData(0x40);
-	  Delay(1000);
-	  M74HC595_WriteData(0x80);
-	  Delay(1000);
-  }
+	while (1)
+	{
+	//    /* Toggle LED4 */
+	//    GPIOC->BSRR = (0x0300);
+	//
+	//    /* Insert 50 ms delay */
+	//    Delay(50);
+	//
+	//    /* Toggle LED3 */
+	//    GPIOC->BRR = (0x0300);
+	//
+	//    /* Insert 100 ms delay */
+	//    Delay(100);
+		M74HC595_WriteData(0xff);
+		Delay(1000);
+		M74HC595_WriteData(0x01);
+		Delay(1000);
+		M74HC595_WriteData(0x02);
+		Delay(1000);
+		M74HC595_WriteData(0x04);
+		Delay(1000);
+		M74HC595_WriteData(0x08);
+		Delay(1000);
+		M74HC595_WriteData(0x10);
+		Delay(1000);
+		M74HC595_WriteData(0x20);
+		Delay(1000);
+		M74HC595_WriteData(0x40);
+		Delay(1000);
+		M74HC595_WriteData(0x80);
+		Delay(1000);
+	}
 }
 
 /**

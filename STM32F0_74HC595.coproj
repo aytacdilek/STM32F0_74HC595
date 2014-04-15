@@ -94,16 +94,16 @@
     <File name="cmsis_boot/stm32f0xx.h" path="cmsis_boot/stm32f0xx.h" type="1"/>
     <File name="main.h" path="main.h" type="1"/>
     <File name="cmsis_core/core_cm0.h" path="cmsis_core/core_cm0.h" type="1"/>
-    <File name="stm32_lib/src/stm32f0xx_it.c" path="stm32_lib/src/stm32f0xx_it.c" type="1"/>
     <File name="74hc595/74hc595.h" path="74hc595/74hc595.h" type="1"/>
+    <File name="stm32_lib/src/stm32f0xx_it.c" path="stm32_lib/src/stm32f0xx_it.c" type="1"/>
     <File name="stm32_lib/inc/stm32f0xx_rcc.h" path="stm32_lib/inc/stm32f0xx_rcc.h" type="1"/>
     <File name="cmsis_boot/system_stm32f0xx.h" path="cmsis_boot/system_stm32f0xx.h" type="1"/>
     <File name="stm32_lib/src/stm32f0xx_gpio.c" path="stm32_lib/src/stm32f0xx_gpio.c" type="1"/>
     <File name="stm32_lib/inc/stm32f0xx_misc.h" path="stm32_lib/inc/stm32f0xx_misc.h" type="1"/>
     <File name="stm32_lib/src/stm32f0xx_misc.c" path="stm32_lib/src/stm32f0xx_misc.c" type="1"/>
     <File name="main.c" path="main.c" type="1"/>
-    <File name="stm32_lib/src/stm32f0xx_rcc.c" path="stm32_lib/src/stm32f0xx_rcc.c" type="1"/>
     <File name="stm32_lib/src" path="" type="2"/>
+    <File name="stm32_lib/src/stm32f0xx_rcc.c" path="stm32_lib/src/stm32f0xx_rcc.c" type="1"/>
     <File name="74hc595" path="" type="2"/>
   </Files>
 </Project>

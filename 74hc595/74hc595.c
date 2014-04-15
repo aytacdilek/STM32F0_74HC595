@@ -34,7 +34,7 @@ void M74HC595_WriteData(const unsigned char data)
 		GPIO_SetBits(M74HC595_PORT, M74HC595_SCK);		//low to high transition allows data to be registered in shift register
 	}
 	GPIO_ResetBits(M74HC595_PORT, M74HC595_RCK);
-	GPIO_SetBits(M74HC595_PORT, M74HC595_RCK);			//lw to high transition allows data in shift register to be transfered to storage register
+	GPIO_SetBits(M74HC595_PORT, M74HC595_RCK);			//low to high transition allows data in shift register to be transfered to storage register
 
 	M74HC595_EnableData();
 }
